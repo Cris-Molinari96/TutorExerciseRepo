@@ -2,7 +2,7 @@ package pack._1.exerciseTutor._1;
 
 public class FootballPlayer {
     // ATTRIBUTI
-    private static int newId = 0 ;
+    private static int idCounter = 0 ;
     private int id;
     private String name ;
     private String surName;
@@ -13,7 +13,7 @@ public class FootballPlayer {
 
     // CONSTRUCT
     FootballPlayer(String name, String surName, int numeroPresenze, int numGol, int numAssist) {
-        this.id = ++newId;
+        this.id = ++idCounter;
         this.name = name;
         this.surName = surName;
         this.numeroPresenze = numeroPresenze;
@@ -21,7 +21,7 @@ public class FootballPlayer {
         this.numAssist = numAssist;
     }
     FootballPlayer(String name, String surName){
-            this.id = ++newId;
+            this.id = ++idCounter;
             this.name = name;
             this.surName = surName;
         }
