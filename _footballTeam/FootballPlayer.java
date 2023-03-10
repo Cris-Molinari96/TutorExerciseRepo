@@ -1,4 +1,4 @@
-package pack._1.exerciseTutor._1;
+package pack._1.exerciseTutor._footballTeam;
 
 public class FootballPlayer {
     // ATTRIBUTI

@@ -1,4 +1,4 @@
-package pack._1.exerciseTutor._1;
+package pack._1.exerciseTutor._footballTeam;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +11,7 @@ public class Team {
     private HashSet<FootballPlayer> listPlayersTeam = new HashSet<>();
 
     // CONSTRUCT
-    public Team(int id, String name) {
+    public Team(String name) {
         this.id = ++idCounter;
         this.name = name;
     }

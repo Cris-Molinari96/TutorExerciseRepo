@@ -1,4 +1,4 @@
-package pack._1.exerciseTutor._1;
+package pack._1.exerciseTutor._footballTeam;
 
 import java.util.*;
 
@@ -19,7 +19,7 @@ public static void main(String[] args) {
     Team teamA = new Team("Team A", bestPlayers);
 
     // Team B
-    Team teamB = new Team(0, "teamB");
+    Team teamB = new Team("teamB");
     teamB.addPlayer(player4);
     teamB.addPlayer(player5);
 
